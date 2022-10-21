@@ -52,28 +52,28 @@ namespace Tutorial4I
                 speed = trackBar1.Value+5;
             else if (!cbxBonus.Checked)
                 speed = trackBar1.Value;
-            if(moveLeft==true && pbxImmagine.Left > 5)
+            if(moveLeft==true)
             {
                 index = 1;
                 string path = Application.StartupPath + "\\images\\" + immagini[index];
                 pbxImmagine.Image = Image.FromFile(path);
                 pbxImmagine.Left -= speed;
             }
-            if (moveRight == true && pbxImmagine.Left < 472)
+            if (moveRight == true)
             {
                 index = 2;
                 string path = Application.StartupPath + "\\images\\" + immagini[index];
                 pbxImmagine.Image = Image.FromFile(path);
                 pbxImmagine.Left += speed;
             }
-            if (moveUp == true && pbxImmagine.Top > 140)
+            if (moveUp == true)
             {
                 index = 3;
                 string path = Application.StartupPath + "\\images\\" + immagini[index];
                 pbxImmagine.Image = Image.FromFile(path);
                 pbxImmagine.Top -= speed;
             }
-            if (moveDown == true && pbxImmagine.Top < 459)
+            if (moveDown == true)
             {
                 index = 0;
                 string path = Application.StartupPath + "\\images\\" + immagini[index];
@@ -82,6 +82,25 @@ namespace Tutorial4I
             }
             lblSpeed.Text = "velocità "+speed;
 
+            if(pbxImmagine.Top<140)
+            {
+                pbxImmagine.Top = 459;
+            }
+
+            if(pbxImmagine.Top>459)
+            {
+                pbxImmagine.Top = 140;
+            }
+
+            if(pbxImmagine.Left<5)
+            {
+                pbxImmagine.Left = 472;
+            }
+
+            if(pbxImmagine.Left>472)
+            {
+                pbxImmagine.Left = 5;
+            }
         }
         
         private void btnUp_MouseDown(object sender, MouseEventArgs e)

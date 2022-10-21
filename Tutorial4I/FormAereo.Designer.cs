@@ -117,44 +117,48 @@
             // 
             // btnDown
             // 
-            this.btnDown.Location = new System.Drawing.Point(37, 89);
+            this.btnDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDown.Location = new System.Drawing.Point(37, 87);
             this.btnDown.Name = "btnDown";
-            this.btnDown.Size = new System.Drawing.Size(29, 23);
+            this.btnDown.Size = new System.Drawing.Size(30, 30);
             this.btnDown.TabIndex = 3;
-            this.btnDown.Text = "↓";
+            this.btnDown.Text = "🢃";
             this.btnDown.UseVisualStyleBackColor = true;
             this.btnDown.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnDown_MouseDown);
             this.btnDown.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnDown_MouseUp);
             // 
             // btnRight
             // 
-            this.btnRight.Location = new System.Drawing.Point(68, 60);
+            this.btnRight.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRight.Location = new System.Drawing.Point(67, 53);
             this.btnRight.Name = "btnRight";
-            this.btnRight.Size = new System.Drawing.Size(29, 23);
+            this.btnRight.Size = new System.Drawing.Size(30, 30);
             this.btnRight.TabIndex = 2;
-            this.btnRight.Text = "→";
+            this.btnRight.Text = "🢂";
             this.btnRight.UseVisualStyleBackColor = true;
             this.btnRight.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnRight_MouseDown);
             this.btnRight.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnRight_MouseUp);
             // 
             // btnLeft
             // 
-            this.btnLeft.Location = new System.Drawing.Point(6, 60);
+            this.btnLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeft.Location = new System.Drawing.Point(6, 53);
             this.btnLeft.Name = "btnLeft";
-            this.btnLeft.Size = new System.Drawing.Size(28, 23);
+            this.btnLeft.Size = new System.Drawing.Size(30, 30);
             this.btnLeft.TabIndex = 1;
-            this.btnLeft.Text = "←";
+            this.btnLeft.Text = "🢀";
             this.btnLeft.UseVisualStyleBackColor = true;
             this.btnLeft.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnLeft_MouseDown);
             this.btnLeft.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnLeft_MouseUp);
             // 
             // btnUp
             // 
-            this.btnUp.Location = new System.Drawing.Point(37, 26);
+            this.btnUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUp.Location = new System.Drawing.Point(37, 17);
             this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(29, 28);
+            this.btnUp.Size = new System.Drawing.Size(30, 30);
             this.btnUp.TabIndex = 0;
-            this.btnUp.Text = "↑";
+            this.btnUp.Text = "🢁";
             this.btnUp.UseVisualStyleBackColor = true;
             this.btnUp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnUp_MouseDown);
             this.btnUp.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnUp_MouseUp);
